@@ -6,7 +6,7 @@ export const createNote = note => {
 
   return fetch('http://localhost:7891/api/v1/notes', {
     method: 'POST',
-    header: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(note)
   })
     .then(res => ([res.ok, res.json()]))
