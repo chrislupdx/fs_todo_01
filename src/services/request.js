@@ -1,4 +1,4 @@
-const request = (path, method, body = {}) => {
+const request = (path, method, body) => {
   // eslint-disable-next-line
   return fetch(`${process.env.API_URL}${path}`, {
     method,

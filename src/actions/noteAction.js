@@ -1,5 +1,5 @@
 import { createAction } from 'promise-middleware-redux';
-import { createNote, getNotes  } from '../services/notesApi.js';
+import { createNote, getNotes } from '../services/notesApi.js';
 
 export const [
   newNote,
