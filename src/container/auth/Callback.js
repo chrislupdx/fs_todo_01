@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import { handleAuth } from '../../services/auth';
 import { connect } from 'react-redux';
 import { setSession } from '../../actions/sessionAction';
 
